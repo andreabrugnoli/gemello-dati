@@ -1,0 +1,11 @@
+# dati veri e pacchetti generati: mai nel repo
+data/
+output/
+*.html
+.venv/
+__pycache__/
+.pytest_cache/
+.DS_Store
+
+# dataset demo: rigenerabile con python demo/crea_demo.py
+demo/*.csv

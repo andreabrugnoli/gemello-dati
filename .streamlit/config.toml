@@ -1,0 +1,13 @@
+# Streamlit solo su questo Mac, senza telemetria
+[server]
+address = "localhost"
+port = 8599
+headless = true
+maxUploadSize = 500
+
+[browser]
+gatherUsageStats = false
+serverAddress = "localhost"
+
+[global]
+showWarningOnDirectExecution = false
